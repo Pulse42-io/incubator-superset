@@ -43,6 +43,7 @@ def get_env_variable(var_name, default=None):
             )
             raise EnvironmentError(error_msg)
 
+PUBLIC_ROLE_LIKE_GAMMA = True
 
 DATABASE_DIALECT = get_env_variable("DATABASE_DIALECT")
 DATABASE_USER = get_env_variable("DATABASE_USER")
